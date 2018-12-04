@@ -362,7 +362,7 @@ if ($('#ambarchart2').length) {
         },
 
         "dataProvider": [{
-            "year": 2013,
+            "month": 2013,
             "income": 23.5,
             "expenses": 21.1,
             "color": "#7474f0"
@@ -405,7 +405,7 @@ if ($('#ambarchart2').length) {
             "balloonText": "<span style='font-size:12px;'>[[title]] in [[category]]:<br><span style='font-size:20px;'>[[value]]</span> [[additional]]</span>",
             "fillAlphas": 1,
             "fillColorsField": "color",
-            "title": "Income",
+            "title": "Volume",
             "type": "column",
             "valueField": "income",
             "dashLengthField": "dashLengthColumn"
@@ -422,7 +422,7 @@ if ($('#ambarchart2').length) {
             "bulletBorderThickness": 3,
             "fillAlphas": 0,
             "lineAlpha": 1,
-            "title": "Expenses",
+            "title": "Price",
             "valueField": "expenses",
             "dashLengthField": "dashLengthLine"
         }],

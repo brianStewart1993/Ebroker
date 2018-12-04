@@ -87,26 +87,26 @@ if ($('#ampiechart1').length) {
         "labelRadius": -35,
         "labelText": "[[percents]]%",
         "dataProvider": [{
-            "country": "Lithuania",
-            "litres": 501.9,
+            "equity": "Sagicor",
+            "stocks": 501.9,
             "backgroundColor": "#815DF6"
         }, {
-            "country": "Czech Republic",
-            "litres": 301.9,
+            "equity": "Digicel",
+            "stocks": 301.9,
             "backgroundColor": "#67B7DC"
         }, {
-            "country": "Ireland",
-            "litres": 201.1,
+            "equity": "Carreras",
+            "stocks": 201.1,
             "backgroundColor": "#9c82f4"
         }, {
-            "country": "The Netherlands",
-            "litres": 150,
+            "equity": "Available Funds",
+            "stocks": 150,
             "backgroundColor": "#FDD400"
         }],
         "color": "#fff",
         "colorField": "backgroundColor",
-        "valueField": "litres",
-        "titleField": "country"
+        "valueField": "stocks",
+        "titleField": "equity"
     });
 }
 
