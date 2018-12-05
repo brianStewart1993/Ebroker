@@ -2,13 +2,13 @@
 <widget id="com.phonegap.tester" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Sagicor Ebroker</name>
     <description>
-     Access Test
+     Sagicor Ebroker App
     </description>
     <author email="" href="http://cordova.io">
         Romaine Halstead
     </author>
 	<icon src="icon.png" />
-    <content src="index.html" />
+    <content src="login.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
